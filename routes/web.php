@@ -25,4 +25,11 @@ Route::get('/cards', 'CardsController@index');
 // Method 1: to show individual cards by using card_id in the url
 Route::get('/cards/{card}', 'CardsController@show');
 
-// Method 2:
+//POST request
+//method 1
+//Route::post('/cards/{card}/notes', 'CardControllers@addNote');
+
+//method 2
+Route::post('/cards/{card}/notes', 'NotesController@store');
+
+//method 3
