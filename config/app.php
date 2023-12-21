@@ -66,7 +66,7 @@ return [
     |
     */
 
-    'timezone' =>env('APP_TIMEZONE', 'UTC'), //what to do if i need my application timezone to be Nepal time?
+    'timezone' => 'UTC', //what to do if i need my application timezone to be Nepal time
 
     /*
     |--------------------------------------------------------------------------

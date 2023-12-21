@@ -17,6 +17,4 @@ Artisan::command('inspire', function () {
     $this->comment(Inspiring::quote());
 })->describe('Display an inspiring quote');
 
-Artisan::command('myCommand', function () {
-    echo date('Y-m-d H:i:s');
-})->describe('MyCommand');
+

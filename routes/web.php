@@ -22,3 +22,7 @@
 Route::get('/', 'PagesController@home');
 Route::get('/about', 'PagesController@about');
 Route::get('/cards', 'CardsController@index');
+// Method 1: to show individual cards by using card_id in the url
+Route::get('/cards/{card}', 'CardsController@show');
+
+// Method 2:
